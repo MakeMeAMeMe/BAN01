@@ -6,7 +6,8 @@ import java.time.LocalDate;
  *
  * @author FQA
  */
-public abstract class Pessoa {
+abstract class Pessoa {
+
     private int cod;
     private String nome;
     private String documento;

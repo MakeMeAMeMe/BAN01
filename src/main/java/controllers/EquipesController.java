@@ -24,9 +24,9 @@ public class EquipesController {
     public List<Equipe> listarComAtletas() throws SQLException {
         return equipeDAO.listAllComAtletas();
     }
-    
+
     public List<Equipe> listarComAtletaMaisVelho() throws SQLException {
         return equipeDAO.listAllComAtletaMaisVelho();
     }
-    
+
 }

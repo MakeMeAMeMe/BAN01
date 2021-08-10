@@ -44,7 +44,7 @@ public class Equipe {
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        builder.append(String.format("Equipe [%d %s]\n", this.getCod(), this.getNome()));
+        builder.append(String.format("Equipe [Código %d, Nome %s]\n", this.getCod(), this.getNome()));
         this.getAtletas().forEach(atleta -> {
             builder.append('\t').append(atleta).append('\n');
         });

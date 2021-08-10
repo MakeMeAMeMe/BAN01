@@ -97,7 +97,7 @@ public class Atleta extends Pessoa {
     @Override
     public String toString() {
         return String.format(
-                "Atleta [%d %s %s %s %s]",
+                "Atleta [Código %d, Nome %s,  %s %s %s]",
                 this.getCod(),
                 this.getNome(),
                 this.getDocumento(),

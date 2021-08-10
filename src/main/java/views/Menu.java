@@ -55,7 +55,6 @@ public class Menu {
                         equipesController.create(equipe);
                         System.out.println("Equipe criada com sucesso");
                     }
-
                     case "2" -> {
                         Atleta atleta;
                         try {
@@ -67,7 +66,6 @@ public class Menu {
                             Logger.getLogger(Menu.class.getName()).log(Level.SEVERE, null, ex);
                         }
                     }
-
                     case "3" -> {
                         List<Equipe> equipes = equipesController.listar();
                         equipes.forEach(equipe -> {

@@ -11,7 +11,8 @@ CREATE TABLE Pessoas (
 
 CREATE TABLE Equipes (
 	cod_equipe INT UNIQUE,
-	nome varchar(40)
+	nome varchar(40),
+	CONSTRAINT pk_equipe PRIMARY KEY (cod_equipe)
 );
 
 CREATE TABLE Atletas (

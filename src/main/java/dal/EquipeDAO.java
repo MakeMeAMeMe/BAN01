@@ -122,7 +122,6 @@ public class EquipeDAO {
             atleta.setTitular(result.getBoolean(14));
             atleta.setCodEquipe(codEquipe);
             equipes.get(indexEquipe).addAtleta(atleta);
-
         }
         return equipes;
     }
@@ -192,7 +191,6 @@ public class EquipeDAO {
             atleta.setTitular(result.getBoolean(14));
             atleta.setCodEquipe(codEquipe);
             equipes.get(indexEquipe).addAtleta(atleta);
-
         }
         return equipes;
     }
